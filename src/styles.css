@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'aos/dist/aos.css';
+
+:root {
+  --color-gold: #d4af37;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
+}
